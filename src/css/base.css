@@ -1,5 +1,5 @@
 :root {
-  --blue:  #9ac7e1;
+  --blue: #9ac7e1;
   --grey: #f0f5fe;
   --yellow: #ffc954;
   --white: #fdfdfd;
@@ -11,6 +11,17 @@ body {
   font-weight: 500;
   font-size: 20px;
   letter-spacing: -0.04em;
+  background-color: var(--white);
 }
-
-
+h2 {
+  font-family: 'Pixelify Sans', sans-serif;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 1;
+  color: var(--yellow);
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000,
+    2px 2px 0 #000;
+  filter: drop-shadow(2px 2px 0 #000) drop-shadow(-2px -2px 0 #000);
+  margin-left: auto;
+  margin-right: auto;
+}

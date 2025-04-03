@@ -1,0 +1,202 @@
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 10px;
+  background-image: url('../img/pic/hero/heropic-mob.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 764px;
+}
+.hero-title {
+  font-family: 'Pixelify Sans', sans-serif;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 0.9;
+  text-align: center;
+  color: var(--yellow);
+  max-width: 375px;
+  height: 162px;
+  text-shadow: -4px -4px 0 #000, 4px -4px 0 #000, -4px 4px 0 #000,
+    4px 4px 0 #000;
+  filter: drop-shadow(2px 2px 0 #000) drop-shadow(-2px -2px 0 #000);
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.span-title {
+  color: var(--blue);
+}
+.hero-text {
+  font-family: 'Kode Mono', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: -0.06em;
+  text-align: center;
+  color: var(--white);
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000,
+    2px 2px 0 #000;
+  filter: drop-shadow(2px 2px 0 #000) drop-shadow(-2px -2px 0 #000);
+  max-width: 343px;
+  height: 120px;
+  margin-bottom: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero-main-text {
+  font-family: 'Kode Mono', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1;
+  text-align: center;
+  color: var(--white);
+  text-shadow: -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000,
+    3px 3px 0 #000;
+  filter: drop-shadow(2px 2px 0 #000) drop-shadow(-2px -2px 0 #000);
+  max-width: 343px;
+  height: 60px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn-google {
+  display: flex;
+  border-radius: 8px;
+  background-color: var(--white);
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #2d2d2d;
+  box-shadow: 0 4px 4px 0 rgba(45, 45, 45, 0.5);
+  width: 280px;
+  height: 72px;
+  padding: 11px 32px;
+  gap: 10px;
+}
+.logo-img {
+  width: 44px;
+  height: 49px;
+}
+.text-img {
+  width: 162px;
+  height: 49px;
+}
+@media screen and (min-width: 1440px) {
+  .hero-section {
+    padding: 174px 188px 141px;
+    background-image: url('../img/pic/hero/heropic-big.webp');
+
+    height: 822px;
+  }
+  .hero-title {
+    font-size: 80px;
+    line-height: 1;
+    max-width: 1063px;
+    margin-bottom: 20px;
+  }
+  .hero-text {
+    max-width: 820px;
+    margin-bottom: 207px;
+  }
+  .hero-main-text {
+    font-size: 40px;
+    max-width: 864px;
+  }
+}
+/* Benefits  */
+.benefits-section {
+  display: flex;
+  flex-direction: column;
+
+  padding: 40px 16px 150px;
+  min-height: 1424px;
+}
+.subtitle {
+  font-size: 52px;
+}
+.benefits-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.benefits-items {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border: 4px dashed #1c1c1c;
+  border-radius: 4px;
+  padding: 16px 8px 16px 16px;
+  width: 343px;
+  height: 190px;
+  gap: 8px;
+}
+.benefits-img {
+  border-radius: 2px;
+  width: 60px;
+  height: 60px;
+}
+.item-title {
+  font-family: 'Kode Mono', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  letter-spacing: -0.06em;
+  color: var(--black);
+  max-width: 243px;
+}
+.item-text {
+  font-family: 'Kode Mono', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: -0.04em;
+  color: var(--black);
+}
+@media screen and (min-width: 1440px) {
+  .benefits-section {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 80px 212px;
+    min-height: 620px;
+  }
+  .item-title {
+    font-size: 52px;
+  }
+  .benefits-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-top: 40px;
+  }
+  .benefits-items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    width: 600px;
+    height: 120px;
+    padding: 0px 0px 0px 0px;
+    gap: 0px;
+  }
+  .benefits-img {
+    border-radius: 8px;
+    width: 120px;
+    height: 120px;
+    margin-top: -4px;
+    margin-left: -4px;
+  }
+  .item-title {
+    font-size: 28px;
+    min-width: 464px;
+    margin-top: -190px;
+    margin-left: 136px;
+  }
+  .item-text {
+    min-width: 464px;
+    margin-top: -90px;
+    margin-left: 136px;
+  }
+}
