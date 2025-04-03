@@ -111,9 +111,6 @@
   padding: 40px 16px 150px;
   min-height: 1424px;
 }
-.subtitle {
-  font-size: 52px;
-}
 .benefits-list {
   display: flex;
   flex-direction: column;
@@ -198,5 +195,62 @@
     min-width: 464px;
     margin-top: -90px;
     margin-left: 136px;
+  }
+}
+
+/* Game Description */
+.game-section {
+  background-color: var(--black);
+  padding: 24px 16px;
+  width: 375px;
+  max-height: 838px;
+}
+.game-subtitle {
+  font-size: 39px;
+  margin-top: -100px;
+  text-align: center;
+}
+.game-text {
+  font-family: 'Kode Mono', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: -0.04em;
+  text-align: center;
+  color: var(--white);
+  margin-top: 60px;
+  margin-bottom: 24px;
+}
+.game-text-second {
+  margin-top: 24px;
+  margin-bottom: 0px;
+}
+.game-img {
+  border-radius: 4px;
+}
+@media screen and (min-width: 1440px) {
+  .game-section {
+    padding: 24px 80px;
+    width: 1440px;
+    height: 334px;
+  }
+  .game-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 30px;
+    align-items: center;
+  }
+  .game-text {
+    max-width: 343px;
+    margin-top: 50px;
+    text-align: start;
+  }
+  .game-img {
+    margin-top: 30px;
+    width: 501px;
+    max-height: 286px;
+  }
+  .game-text-second {
+    margin-top: -5px;
   }
 }
