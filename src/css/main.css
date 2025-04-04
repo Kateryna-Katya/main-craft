@@ -360,7 +360,7 @@
 }
 /* Key Features */
 .key-features-section{
-  height: 1533px;
+ 
   padding: 40px 16px;
 }
 .key-subtitle{
@@ -454,15 +454,15 @@ margin-botom:20px;
     height: 89px;
    }
 .numbers{
-font-size: 54px;
+ font-size: 54px;
 }
 .key-title{
-font-size: 36px;
-letter-spacing: -0.02em;
-max-width: 744px;
-max-height: 36px;
-margin-bottom:16px;
-align-self:start;
+ font-size: 36px;
+ letter-spacing: -0.02em;
+ max-width: 744px;
+ max-height: 36px;
+ margin-bottom:16px;
+ align-self:start;
 }
 .key-text{
   max-width: 744px;
@@ -471,4 +471,139 @@ align-self:start;
  
 }
 }
+/* Main Characters */
+.characters-section{
+  padding:40px 0px;
+ 
+}
+.characters-title{
+  font-size: 39px;
+  margin-bottom:35px;
 
+}
+
+.characters-list{
+  background-color:var(--black);
+  width:100%;
+  height:auto;
+  padding:49px 16px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  gap:36px
+}
+.characters-item{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:16px
+  
+}
+.characters-img{
+  border-radius: 4px;
+}
+.characters-name{
+  font-family: "Kode Mono", sans-serif;
+font-weight: 700;
+font-size: 28px;
+letter-spacing: -0.06em;
+text-align: center;
+color:var(--yellow);
+}
+.characters-text{
+  font-family: "Kode Mono", sans-serif;
+font-weight: 500;
+font-size: 20px;
+letter-spacing: -0.04em;
+text-align: center;
+color:var(--white);
+max-width:311px;
+}
+@media screen and (min-width: 1440px){
+  .characters-section{
+    padding:60px 0px;
+   
+  }
+  .characters-title{
+    font-size: 52px;
+    margin-bottom:40px;
+  
+  }
+   .characters-list{
+    padding: 32px 80px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    gap:0px
+  }
+  .characters-item{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:16px ; 
+    padding:0px 12px; 
+  }
+  .characters-img{
+    margin-bottom:8px;
+  }
+}
+/* Reviews */
+.reviews-section{
+  padding:40px 16px;
+}
+.reviews-title{
+  margin-bottom:32px;
+}
+.rewiews-list{
+  display:flex;
+  flex-direction:column;
+  gap:16px;
+}
+.rewiews-items{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  border: 4px dashed #9ac7e1;
+border-radius: 4px;
+padding: 16px 8px 16px 16px;
+width: 343px;
+height: auto;
+background-color:var(--brown);
+gap:8px;
+}
+.rewiews-img{
+  border-radius: 100px;
+  margin-right:16px;
+}
+.rewiews-name{
+  font-family: "Kode Mono", sans-serif;
+font-weight: 700;
+font-size: 20px;
+letter-spacing: -0.04em;
+color:var(--blue);
+}
+.rewiews-text{
+  font-family: "Kode Mono", sans-serif;
+font-weight: 400;
+font-size: 16px;
+letter-spacing: -0.06em;
+color:var(--white);
+}
+@media screen and (min-width: 1440px){
+  .reviews-section{
+    padding:60px 80px;
+  }
+  .reviews-title{
+    font-size: 52px;
+    margin-bottom:40px;
+  }
+  .rewiews-list{
+    display:flex;
+    flex-direction:row;
+    gap:20px;
+  }
+  .rewiews-items{
+  padding: 16px;
+  width: 240px; 
+  }
+}

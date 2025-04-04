@@ -20,6 +20,7 @@ h2 {
   font-weight: 600;
   font-size: 42px;
   line-height: 1;
+  text-align:center;
   color: var(--yellow);
   text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000,
     2px 2px 0 #000;
