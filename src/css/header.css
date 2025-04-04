@@ -2,14 +2,17 @@
   background-color: var(--black);
   position: relative;
   height: 48px;
+  padding:12px 24px;
 }
+
 .menu-button {
+  display: block;
   background-color: inherit;
   width: 24px;
   height: 24px;
   border: none;
-  margin-left: 327px;
-  margin-top: 12px;
+  margin-left:auto;
+  margin-right:24px;
 }
 .navigation-list {
   display: none;
