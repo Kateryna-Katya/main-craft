@@ -6,8 +6,10 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 764px;
+  height: auto;
+  
 }
+
 .hero-title {
   font-family: 'Pixelify Sans', sans-serif;
   font-weight: 600;
@@ -208,7 +210,7 @@
 /* Game Description */
 .game-section {
   width: 375px;
-  max-height: 838px;
+  height: auto;
 }
 .game-container {
   padding: 24px 16px;
@@ -239,7 +241,8 @@
 @media screen and (min-width: 1440px) {
   .game-section {
     width: 100%;
-    height: 334px;
+    height: auto;
+    
   }
   .game-container {
     padding: 24px 80px;
@@ -266,8 +269,11 @@
 }
 /* Gallery */
 .gallery {
-   padding: 80px 16px 40px 16px;
+   padding: 40px 16px 40px 16px;
    position:relative;
+   margin-left:auto;
+   margin-right:auto;
+   align-items:center;
 }
 .gallery-subtitle{
   font-size: 42px;
@@ -357,6 +363,7 @@
  opacity: 0.5;
  pointer-events: none;
 }
+
 }
 /* Key Features */
 .key-features-section{
@@ -558,6 +565,7 @@ max-width:311px;
   display:flex;
   flex-direction:column;
   gap:16px;
+ 
 }
 .rewiews-items{
   display:flex;
@@ -601,9 +609,17 @@ color:var(--white);
     display:flex;
     flex-direction:row;
     gap:20px;
+    margin-left:auto;
+  margin-right:auto;
   }
   .rewiews-items{
   padding: 16px;
   width: 240px; 
+  }
+  .rewiews-items{
+    gap:0px;
+  }
+  .rewiews-img{
+    margin-bottom:8px;
   }
 }
