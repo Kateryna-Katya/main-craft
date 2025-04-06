@@ -1,0 +1,69 @@
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./footer.css');
+
+.cookies-body {
+  background-color: var(--white);
+}
+.cookies-container {
+  padding: 32px 16px 40px;
+  font-family: 'Kode Mono', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: -0.06em;
+  color: #1c1c1c;
+  align-items: start;
+  min-width: 343px;
+  height: auto;
+}
+.back-btn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  width: 173px;
+  height: 24px;
+  margin-bottom: 24px;
+}
+.cookies-title-main {
+  font-size: 36px;
+  margin-bottom: 32px;
+}
+.cookies-subtitle {
+  font-weight: 700;
+  font-size: 28px;
+  letter-spacing: -0.06em;
+  color: var(--black);
+  margin-top: 20px;
+}
+.title-cookies {
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: -0.04em;
+  color: #1c1c1c;
+  margin-bottom: 16px;
+  margin-top: 20px;
+}
+.list-with-disc {
+  list-style-type: disc;
+  margin-left: 18px;
+}
+.break-url {
+  word-break: break-all;
+}
+.disc {
+  padding: 0 20px;
+}
+@media screen and (min-width: 1440px) {
+  .cookies-container {
+    padding: 56px 189px 40px;
+    min-width: 1060px;
+  }
+  .cookies-title-main {
+    font-size: 52px;
+    margin-bottom: 40px;
+  }
+  .terms-list {
+    margin-bottom: 15px;
+  }
+}
