@@ -5,7 +5,6 @@
   --white: #fdfdfd;
   --black: #1c1c1c;
   --brown: #724425;
-
 }
 body {
   font-family: 'Kode Mono', 'Pixelify Sans', sans-serif;
@@ -13,14 +12,14 @@ body {
   font-weight: 500;
   font-size: 20px;
   letter-spacing: -0.04em;
-  background-color: var(--white);
+  background: transparent;
 }
 h2 {
   font-family: 'Pixelify Sans', sans-serif;
   font-weight: 600;
   font-size: 42px;
   line-height: 1;
-  text-align:center;
+  text-align: center;
   color: var(--yellow);
   text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000,
     2px 2px 0 #000;

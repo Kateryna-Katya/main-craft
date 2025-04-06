@@ -2,77 +2,70 @@
 @import url('./base.css');
 @import url('./footer.css');
 
-.policy-body{
-    background-color:var(--white);
+.policy-body {
+  background-color: var(--white);
 }
-.policy-container{
-    padding:32px 16px 40px;
-    font-family: "Kode Mono", sans-serif;
-font-weight: 400;
-font-size: 16px;
-letter-spacing: -0.06em;
-color:var(--black);
-align-items:start;
-min-width: 343px;
-height:auto;
+.policy-container {
+  padding: 32px 16px 40px;
+  font-family: 'Kode Mono', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: -0.06em;
+  color: var(--black);
+  align-items: start;
+  min-width: 343px;
+  height: auto;
 }
-.back-btn{
-  display:flex;
-  align-items:center;
-  gap:12px;
-  padding: 0px 16px;
-width: 173px;
-height: 24px;
-margin-bottom:24px;
+.back-btn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  width: 173px;
+  height: 24px;
+  margin-bottom: 24px;
 }
-.link-home{
-    font-family: "Kode Mono", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    letter-spacing: -0.06em;
-    text-align: center;
-    
+.link-home {
+  font-family: 'Kode Mono', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: -0.06em;
+  text-align: center;
 }
 
-.policy-title-main{
-    font-size: 36px;
-    margin-bottom:32px;
+.policy-title-main {
+  font-size: 36px;
+  margin-bottom: 32px;
 }
-.privacy-list-one{
-    list-style-type: disc;  
-   
-    margin-bottom:10px;
-    
-    
+.privacy-list-one {
+  list-style-type: disc;
+
+  margin-bottom: 10px;
 }
-.policy-title{
-    font-family: "Kode Mono", sans-serif;
-font-weight: 700;
-font-size: 28px;
-letter-spacing: -0.06em;
-margin-top:20px;
-margin-bottom:16px;
+.policy-title {
+  font-family: 'Kode Mono', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  letter-spacing: -0.06em;
+  margin-top: 20px;
+  margin-bottom: 16px;
 }
 
-.privacy-link{
-    color: -webkit-link;
-    text-decoration: underline;
-    margin-left:50px;
+.privacy-link {
+  color: -webkit-link;
+  text-decoration: underline;
+  margin-left: 50px;
 }
-@media screen and (min-width: 1440px){
-  .policy-container{
-      padding:56px 189px 40px;
-      min-width:1060px;
-    } 
-    .policy-title-main{
-      font-size: 52px;
-      margin-bottom:40px;
+@media screen and (min-width: 1440px) {
+  .policy-container {
+    padding: 56px 189px 40px;
+    min-width: 1060px;
   }
-  .privacy-list-one{
-      margin-bottom:15px;
-      
-  } 
+  .policy-title-main {
+    font-size: 52px;
+    margin-bottom: 40px;
+  }
+  .privacy-list-one {
+    margin-bottom: 15px;
+  }
 }
-
-
-  
