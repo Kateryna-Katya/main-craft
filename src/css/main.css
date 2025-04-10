@@ -531,6 +531,9 @@
   max-width: 311px;
 }
 @media screen and (min-width: 1440px) {
+  .characters-section {
+    height: 460px;
+  }
   .characters-title {
     font-size: 52px;
     margin-bottom: 40px;
