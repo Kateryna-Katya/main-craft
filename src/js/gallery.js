@@ -5,10 +5,18 @@ import 'swiper/css/navigation';
 
 document.addEventListener('DOMContentLoaded', function () {
     const swiper = new Swiper('.gallery-swiper', {
-        modules: [Navigation], 
-        slidesPerView: 1, 
-        spaceBetween: 10,
-        centeredSlides: true,
+        modules: [Navigation],
+        breakpoints: {
+            375: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+            },
+            1440: {
+                slidesPerView: 1.5,
+                spaceBetween: 20,
+            },
+        },
+        slidesPerView: 'auto',
         loop: true,
         slideClass: 'gallery-swiper-slide',
         wrapperClass: 'gallery-swiper-wrapper',
@@ -22,8 +30,8 @@ document.addEventListener('DOMContentLoaded', function () {
         on: {
             slideChange: function () {
                 const progressBar = document.querySelector('.pag_bar');
-                const totalSlides = this.slides.length - this.loopedSlides * 2; 
-                const step = 100 / (totalSlides - 1); 
+                const totalSlides = this.slides.length - this.loopedSlides * 2;
+                const step = 100 / (totalSlides - 1);
                 const moveX = this.realIndex * step;
 
                 if (progressBar) {
