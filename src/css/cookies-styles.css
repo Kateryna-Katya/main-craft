@@ -1,12 +1,12 @@
 @import url('./reset.css');
 @import url('./base.css');
 @import url('./footer.css');
+@import url('./container.css');
 
 .cookies-body {
   background-color: var(--white);
 }
 .cookies-container {
-  padding: 32px 16px 40px;
   font-family: 'Kode Mono', sans-serif;
   font-weight: 400;
   font-size: 16px;
