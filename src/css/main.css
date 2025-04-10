@@ -324,6 +324,11 @@
     width: 800px;
     height: 450px;
   }
+  .gallery-container {
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
 
   .custom-navigation {
     display: flex;
